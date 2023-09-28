@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    height: 120px;
+    position: relative;
+}
+.navlink:hover {
+    color: gold;
+}
+#logo {
+    margin-left: -30px;
+    float: left;
+}
+.navitem {
+    float: right;
+    display: flex;
+    margin-top: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navlink {
+    color: white;
+    font-weight: 900;
+    margin-right: 10px;
+
+}
+.home {
+    color: white !important;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/programming-background-with-person-working-with-codes-computer.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.we{
+    line-height: 4.5rem;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 300;
+} 
+.soon{
+    margin-top: -70px;
+    letter-spacing: -5px;
+    font-weight: 700;
+    color: gold;
+    font-size: 100px;
+}
+.content1{
+    background-color: rgba(0, 0, 0, 0.326);
+    color: white;
+    padding: 1rem;
+    width: 85%;
+    border-radius: 30px;
+    margin-top: -90px;
+    font-size: 18px;
+    line-height: 35px;
+}
+#coming-soon {
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    margin-left: 60px;
+}
+.card{
+    width: 130px !important;
+    height: 140px !important;
+    border-radius: 50px !important;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: gold !important;
+    transition: transform 1s;
+} 
+ .card1{
+    background-color: white !important;
+}
+.card2{
+    background-color: rgb(247, 221, 72) !important;
+    margin-bottom: 100px !important;
+}
+.card3{
+    background-color: rgb(248, 236, 168) !important;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+#box2 {
+    margin-bottom: 50px;
+}
+
+.section2{
+    box-sizing: border-box;
+}
+.abt{
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+    width: 100%;
+    font-family: montserrat;
+    box-shadow: 2px 4px 2px rgba(128, 128, 128, 0.151);
+    padding: 1.5rem 0;
+    font-size: 35px;
+    margin-top: -10px;
+    font-weight: 900;  
+}
+#devy-image{
+    margin-left: -3rem;
+    margin-top: -130px;
+    height: 500px;
+    width: 500px;
+    transition: transform 1s;   
+}
+#devy-image:hover{
+    transform: translateY(20px);
+    transform: translateX(20px);
+}
+.name{
+    color: rgb(237, 201, 0);
+    text-shadow: 2px 2px 3px rgba(128, 128, 128, 0.4);
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: -90px;
+    width: 80%;
+    
+}
+.content2{
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+}
+footer{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    margin-bottom: -50px;
+    margin-top: 3rem;
+    width: 100%;
+    background-color: black;
+}
+footer h1{
+    font-size: 30px;
+    color: white;  
+}
+footer p{
+    font-size: 22px;
+    color: gold;
+}
+form{
+    border-radius: 2em;
+    margin-left: -30px;
+}
+.ull{
+    list-style: none;
+    padding: 5;
+    margin: 0;
+}
+.reach {
+    margin-top: 60px;
+}
+li input{
+    color: white;
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: 2.5rem;
+    width: 20rem;
+}
+input::placeholder, textarea::placeholder{
+    color: Grey;
+    padding: 1rem;
+}
+textarea{
+    vertical-align: top;
+    height: 4em;
+}
+li textarea:focus, li input:focus{
+    outline: none;
+    border-color: gold;
+}
+li textarea{
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font: 1em ;
+    width: 22rem;
+    box-sizing: border-box;
+}
+form li + li{
+    margin-top: 1rem;
+}
+.button2{
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 90px;
+    padding: 4px;
+    margin-top: 5px;
+    color: black;
+}
+.button2:hover{
+    background-color: gold;
+}
+.copy {
+    margin-top: 100px !important;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 16px;
+    width: 80%;
+}
+.fa{
+    letter-spacing: 1px;
+    color: gold;
+    cursor: pointer;
+    margin-top: 10px !important;
+    margin-right: 10px;
+} 
+
+@media (min-width: 660px) {
+   #logo {
+    margin-left: 50px;
+   }
+   .navitem {
+    margin-right: 60px;
+   }
+   .navlink {
+    margin-left: 20px;
+   }
+    #coming-soon {
+        margin-left: 90px;
+    }
+    .soon {
+        font-size: 150px;
+    }
+    .menu {
+        margin-left: 180px;
+    }
+    footer {
+        padding-left: 8rem;
+    }
+    .copy {
+        margin-left: -60px;
+    }
+    .menu {
+        margin-left: 250px;
+    }
+}
+.card{
+    width: 170px !important;
+    height: 190px !important;
+}
+
+@media (min-width: 1024px) {
+    #logo {
+        margin-left: 100px;
+       }
+    #coming-soon {
+        margin-left: 120px
+    }
+    .menu {
+        margin-left: 400px;
+    }
+    .card{
+        width: 170px !important;
+        height: 190px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navitem {
+        margin-right: 70px;
+    }
+    .navlink{
+        margin-right: 80px;
+    }
+    #secondsection, .foot, #about-section {
+        display: flex;
+    }
+    #coming-soon {
+        margin-left: -100px
+    }
+    .menu {
+        margin-top: 100px;
+        margin-left: 0px;
+        margin-right: 100px;
+        margin-bottom:200px;
+    }
+    .content1{
+        width: 80%;
+    }
+    .card{
+        width: 170px !important;
+        height: 190px !important;
+    }
+    #about-section {
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    #devy-image {
+margin-left: 30px;
+    }
+    .content2 {
+        width: 60%;
+    }
+    #box1 {
+        margin-right: 20px;
+    }
+    .contact1 {
+        margin-left: 30px;
+    }
+    .foot {
+        margin-top: 60px;
+    }
+    .reach{
+        margin-left: 200px;
+    }
+    .fa {
+        letter-spacing: 15px;
+    }
+    li textarea {
+        width: 30rem;
+    }
+    li input {
+        width: 26rem;
+    }
+    .copy{
+        text-align: center;
+    }
+}
