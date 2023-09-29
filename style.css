@@ -150,7 +150,6 @@ footer{
     padding-left: 3rem;
     margin-bottom: -50px;
     margin-top: 3rem;
-    width: 100%;
     background-color: black;
 }
 footer h1{
@@ -260,12 +259,8 @@ form li + li{
         margin-left: -60px;
     }
     .menu {
-        margin-left: 250px;
+        margin-left: 200px;
     }
-}
-.card{
-    width: 170px !important;
-    height: 190px !important;
 }
 
 @media (min-width: 1024px) {
@@ -276,7 +271,7 @@ form li + li{
         margin-left: 120px
     }
     .menu {
-        margin-left: 400px;
+        margin-left: 300px;
     }
     .card{
         width: 170px !important;
