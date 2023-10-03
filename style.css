@@ -76,7 +76,7 @@ html{
 }
 .menu {
     display: flex;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .card{
     width: 130px !important;
@@ -147,7 +147,7 @@ html{
 }
 footer{
     padding-top: 3rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     margin-bottom: -50px;
     margin-top: 3rem;
     background-color: black;
@@ -306,14 +306,15 @@ form li + li{
         height: 190px !important;
     }
     #about-section {
-        margin-top: 200px;
+        margin-top: 180px;
         margin-left: 50px;
     }
     #devy-image {
-margin-left: 30px;
+        margin-left: 60px;
     }
     .content2 {
         width: 60%;
+        margin-left: -50px;
     }
     #box1 {
         margin-right: 20px;
@@ -339,5 +340,6 @@ margin-left: 30px;
     }
     .copy{
         text-align: center;
+        margin-left: 25px;
     }
 }
